@@ -81,7 +81,7 @@ namespace ElonsAdventure.View
         /// <summary>
         /// reset the console
         /// </summary>
-        internal void Reset()
+        public void Reset()
         {
             Console.Clear();
         }

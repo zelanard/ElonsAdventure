@@ -54,36 +54,5 @@ namespace ElonsAdventure.DAL
             Battery.DisCharge();
             Display.DistanceDriven += RANGE;
         }
-
-        /// <summary>
-        /// Change the color of the car.
-        /// </summary>
-        /// <param name="col"></param>
-        public void PaintTheCar(string col)
-        {
-            switch (col)
-            {
-                case "red":
-                    {
-                        CarColour = ConsoleColor.Red;
-                        break;
-                    }
-                case "blue":
-                    {
-                        CarColour = ConsoleColor.Blue;
-                        break;
-                    }
-                case "green":
-                    {
-                        CarColour = ConsoleColor.Green;
-                        break;
-                    }
-                default:
-                    {
-                        CarColour = ConsoleColor.Red;
-                        break;
-                    }
-            }
-        }
     }
 }
