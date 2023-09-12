@@ -28,7 +28,6 @@
         }
         #endregion
 
-
         /// <summary>
         /// overrides <c>"ToString"</c> to output it's variables.
         /// </summary>
